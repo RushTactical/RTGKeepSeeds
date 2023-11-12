@@ -1,0 +1,42 @@
+<configs>
+    <!-- <set xpath="//block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">2</set> -->
+    <!-- Change the number 2 to the time you want for stage grow time and remove the stuff before <set and after set> -->
+<!-- Mushroom -->    
+    <set xpath="//block[@name='plantedMushroom3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Yucca -->
+    <set xpath="//block[@name='plantedYucca3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Cotton -->
+    <set xpath="//block[@name='plantedCotton3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Coffee -->
+    <set xpath="//block[@name='plantedCoffee3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Goldenrod -->
+    <set xpath="//block[@name='plantedGoldenrod3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Aloe -->
+    <set xpath="//block[@name='plantedAloe3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Blueberry -->
+    <set xpath="//block[@name='plantedBlueberry3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Potato -->
+    <set xpath="//block[@name='plantedPotato3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Chrysanthemum -->
+    <set xpath="//block[@name='plantedChrysanthemum3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Corn -->
+    <set xpath="//block[@name='plantedCorn3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Super Corn -->
+    <set xpath="//block[@name='plantedGraceCorn3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Hops -->
+    <set xpath="//block[@name='plantedHop3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+<!-- Pumpkin -->
+    <set xpath="//block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+</configs>
