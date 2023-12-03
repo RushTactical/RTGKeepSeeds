@@ -1,42 +1,108 @@
 <configs>
     <!-- <set xpath="//block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">2</set> -->
     <!-- Change the number 2 to the time you want for stage grow time and remove the stuff before <set and after set> -->
-<!-- Mushroom -->    
+<!-- Mushroom -->
     <set xpath="//block[@name='plantedMushroom3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+    <append xpath="//block[@name='plantedMushroom3HarvestPlayer']">
+        <drop event="Destroy" name="plantedMushroom1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedMushroom1" count="1" prob="0.25"/>
+    </append>
 
 <!-- Yucca -->
     <set xpath="//block[@name='plantedYucca3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
 
+    <append xpath="//block[@name='plantedYucca3HarvestPlayer']">
+        <drop event="Destroy" name="plantedYucca1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedYucca1" count="1" prob="0.25"/>
+    </append>
+
 <!-- Cotton -->
     <set xpath="//block[@name='plantedCotton3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+    <append xpath="//block[@name='plantedCotton3HarvestPlayer']">
+        <drop event="Destroy" name="plantedCotton1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedCotton1" count="1" prob="0.25"/>
+    </append>
 
 <!-- Coffee -->
     <set xpath="//block[@name='plantedCoffee3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
 
+    <append xpath="//block[@name='plantedCoffee3HarvestPlayer']">
+        <drop event="Destroy" name="plantedCoffee1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedCoffee1" count="1" prob="0.25"/>
+    </append>
+
 <!-- Goldenrod -->
     <set xpath="//block[@name='plantedGoldenrod3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+    <append xpath="//block[@name='plantedGoldenrod3HarvestPlayer']">
+        <drop event="Destroy" name="plantedGoldenrod1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedGoldenrod1" count="1" prob="0.25"/>
+    </append>
 
 <!-- Aloe -->
     <set xpath="//block[@name='plantedAloe3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
 
+    <append xpath="//block[@name='plantedAloe3HarvestPlayer']">
+        <drop event="Destroy" name="plantedAloe1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedAloe1" count="1" prob="0.25"/>
+    </append>
+
 <!-- Blueberry -->
     <set xpath="//block[@name='plantedBlueberry3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+    <append xpath="//block[@name='plantedBlueberry3HarvestPlayer']">
+        <drop event="Destroy" name="plantedBlueberry1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedBlueberry1" count="1" prob="0.25"/>
+    </append>
 
 <!-- Potato -->
     <set xpath="//block[@name='plantedPotato3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
 
+    <append xpath="//block[@name='plantedPotato3HarvestPlayer']">
+        <drop event="Destroy" name="plantedPotato1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedPotato1" count="1" prob="0.25"/>
+    </append>
+
 <!-- Chrysanthemum -->
     <set xpath="//block[@name='plantedChrysanthemum3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+    <append xpath="//block[@name='plantedChrysanthemum3HarvestPlayer']">
+        <drop event="Destroy" name="plantedChrysanthemum1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedChrysanthemum1" count="1" prob="0.25"/>
+    </append>
 
 <!-- Corn -->
     <set xpath="//block[@name='plantedCorn3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
 
+    <append xpath="//block[@name='plantedCorn3HarvestPlayer']">
+        <drop event="Destroy" name="plantedCorn1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedCorn1" count="1" prob="0.25"/>
+    </append>
+
 <!-- Super Corn -->
     <set xpath="//block[@name='plantedGraceCorn3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+    <append xpath="//block[@name='plantedGraceCorn3HarvestPlayer']">
+        <drop event="Destroy" name="plantedGraceCorn1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedGraceCorn1" count="1" prob="0.25"/>
+    </append>
 
 <!-- Hops -->
     <set xpath="//block[@name='plantedHop3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
 
+    <append xpath="//block[@name='plantedHop3HarvestPlayer']">
+        <drop event="Destroy" name="plantedHop1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedHop1" count="1" prob="0.25"/>
+    </append>
+
 <!-- Pumpkin -->
     <set xpath="//block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Destroy']/@prob">1</set>
+
+    <append xpath="//block[@name='plantedPumpkin3HarvestPlayer']">
+        <drop event="Destroy" name="plantedPumpkin1" count="1" prob="0.5"/>
+        <drop event="Destroy" name="plantedPumpkin1" count="1" prob="0.25"/>
+    </append>
+
 </configs>
